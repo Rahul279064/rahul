@@ -24,7 +24,7 @@ const Icons = styled(Box)(({ theme }) => ({
   display: "none",
   alignItems: "center",
   gap: "20px",
-  [theme.breakpoints.up("sm")]: {
+  [theme.breakpoints.up("sm")]: {    
     display: "flex",
   },
 }));
